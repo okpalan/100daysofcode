@@ -60,11 +60,10 @@ input[type="checkbox"]::before {
   background-color: rebeccapurple;
 }
 
-.btn::before {
+#btn::before {
   content: "\01F4CB";
 }
-
-.btn {
+#btn {
   width: 50px;
   height: 50px;
   position: absolute;
