@@ -49,7 +49,8 @@
   text-align: center;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"],
+input[type="number"] {
   position: absolute;
   right: 0;
   height: 16px;

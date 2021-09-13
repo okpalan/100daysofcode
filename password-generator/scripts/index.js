@@ -1,4 +1,9 @@
-'use strict';
+"use strict";
 
-const span =document.getElementById("password");
-const btn = document.getElementById("btn")
+// constant symbols table of DOM Nodes;
+const span = document.getElementById("password"),
+  btn = document.getElementById("btn");
+const checkboxes = Array.from(document.querySelectorAll("input[type=checkbox]"));
+
+const LETTERS = Array.from('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+const SYMBOLS =Array.from('\'!"#$%&\\\{\/[{]_^({)+.@,-*.:?>=<')
