@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  --line-height: 650px;
+  --text-height: 50px;
+  --content-spacing: 13.5px;
+}
+
+#password {
+  display: inline-block;
+  background-color: #333;
+  width: 100%;
+  margin-bottom: var(--content-spacing);
+  height: var(--text-height);
+}
+
+.container {
+  display: block;
+  position: sticky;
+  margin: 50vmin auto;
+  line-height: var(---line-height);
+  background-color: #06c;
+  height: var(---line-height);
+  width: var(--line-height);
+  z-index: 1;
+  border: 12px solid #06c;
+  border-top-right-radius: var(--content-spacing);
+  border-bottom-left-radius: var(--content-spacing);
+}
+
+.container h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container div {
+  width: inherit;
+  position: static;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.container div > p {
+  display: inline;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  right: 0;
+  height: 16px;
+  width: 50px;
+}
+input[type="checkbox"]::before {
+  height: 22px;
+  background-color: rebeccapurple;
+}
+
+.btn::before {
+  content: "\01F4CB";
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: purple;
+}
