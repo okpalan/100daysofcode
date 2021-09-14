@@ -23,7 +23,7 @@
 .container {
   display: block;
   position: sticky;
-  margin: 50vmin auto;
+  margin: 15% auto;
   line-height: var(---line-height);
   background-color: #06c;
   height: var(---line-height);
@@ -54,8 +54,7 @@
 }
 
 input[type="checkbox"],
-input[type="number"]
-{
+input[type="number"] {
   position: absolute;
   right: 0;
   height: 16px;
