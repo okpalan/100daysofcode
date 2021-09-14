@@ -4,7 +4,7 @@
   padding: 0;
   text-transform: uppercase;
   --line-height: 650px;
-  --text-height: 50px;
+  --text-box-height: 50px;
   --content-spacing: 13.5px;
 }
 
@@ -12,8 +12,12 @@
   display: inline-block;
   background-color: #333;
   width: 100%;
+  color: white;
+  font-size: var(--text-box-height);
+  line-height: var(--text-box-height);
+  text-align: center;
   margin-bottom: var(--content-spacing);
-  height: var(--text-height);
+  height: var(--text-box-height);
 }
 
 .container {
@@ -41,7 +45,7 @@
   font-size: 25px;
   font-family: sans-serif;
   font-weight: bolder;
-  color: white;
+  color: orange;
 }
 
 .container div > p {
